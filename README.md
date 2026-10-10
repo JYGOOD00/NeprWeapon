@@ -1,3 +1,23 @@
+# NeprWeapon 3.1.0.8 — DungreedEnemies 호환 핫픽스
+
+[DungreedEnemies 1.3.0](https://github.com/Xetsumei/DungreedEnemies/releases/tag/1.3.0)과 병용할 때 혈액 축제 회복 처리와 드론 피해 처리에서 발생할 수 있는 두 패치 초기화 충돌을 수정했습니다.
+
+- 혈액 축제: 상대 모드의 회복 함수와 이펙트를 유지하면서 기존 강화 장갑의 회복량 보정을 적용하고, 예외 영역 종료 위치를 보존합니다.
+- 드론 피해: 상대 모드의 피해 제한 패치 뒤에 보정을 적용하며, 재적용 때 중복으로 삽입하지 않습니다.
+
+[NeprWeapon v3.1.0.8 다운로드](https://github.com/JYGOOD00/NeprWeapon/releases/tag/v3.1.0.8)
+
+공개 3.1.0.7 기준의 Weapon 전용 변경입니다. NeprItem 공개 버전은 2.1.0.12로 유지합니다. 무기 ID·밸런스 수치·리소스는 변경하지 않았습니다. 기존 ID 이전에 관한 새 런 안내는 그대로 적용됩니다. 멀티플레이 참가자는 NeprWeapon 3.1.0.8 / NeprItem 2.1.0.12 및 다른 모드 구성을 맞춰 주세요.
+
+검증: native/HarmonyX 빌드 성공, 자체 회귀 각 4,247개 통과(총 8,494 PASS). 실제 게임 병용·호스트·게스트 검증과 제보 원본 로그 확인은 아직 완료되지 않았습니다. 이번 검증은 두 패치의 구조적 충돌에 한정합니다.
+
+ZIP SHA-256: `081948565f42232bc4645299c52d536f8c1d7b313a9fa3300afcbf63ced89855`
+빌드 소스 fingerprint: `35f31288206c68d09384b131bd9291ca5708f9f459bd7eaf00d0eb5ac5710c0f`
+
+---
+
+## 이전 3.1.0.7 배포 기록
+
 # NeprWeapon 3.1.0.7 — 충돌 및 기존 항목 오류 핫픽스
 
 - 기존 무기의 고정 ID, 강화 연결, 조회와 네트워크 참조를 일관된 별도 대역으로 이전합니다.
@@ -19,4 +39,5 @@
 
 # NeprWeapon
 Sephiria weapon mod for HorayModAPI. Releases and automatic updates.
+
 
