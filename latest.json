@@ -134,6 +134,6 @@
     "Assets/vector-31901.png": "406fce829fa2c7f7be3c0ab9a9708ce927ff449995e10e4a78765bad2f4b16de",
     "Assets/vector-31901.png.sprite.json": "6265637b16fff018f8076d5c9f4883d66f3f98aeb6fe127d5eeea286d9c133c0"
   },
-  "installSubdirectory": "NeprWeapon",
+  "installSubdirectory": "AddOns/NeprWeapon",
   "harmonyProfile": "native"
 }
